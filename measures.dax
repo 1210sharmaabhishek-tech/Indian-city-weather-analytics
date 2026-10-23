@@ -1,0 +1,39 @@
+Average Temperature °C =
+AVERAGE(Fact_Weather[temperature_c])
+
+Maximum Temperature °C =
+MAX(Fact_Weather[temperature_c])
+
+Minimum Temperature °C =
+MIN(Fact_Weather[temperature_c])
+
+Average Humidity % =
+AVERAGE(Fact_Weather[humidity_pct])
+
+Average Wind KPH =
+AVERAGE(Fact_Weather[wind_kph])
+
+Average PM2.5 =
+AVERAGE(Fact_Weather[pm2_5])
+
+Average PM10 =
+AVERAGE(Fact_Weather[pm10])
+
+Average UV Index =
+AVERAGE(Fact_Weather[uv_index])
+
+Hot City Alert =
+IF(MAX(Fact_Weather[temperature_c]) >= 40, "High temperature", "Normal")
+
+UV Risk =
+VAR UVValue = MAX(Fact_Weather[uv_index])
+RETURN
+    SWITCH(
+        TRUE(),
+        ISBLANK(UVValue), "Unavailable",
+        UVValue < 3, "Low",
+        UVValue < 6, "Moderate",
+        UVValue < 8, "High",
+        UVValue < 11, "Very High",
+        "Extreme"
+    )

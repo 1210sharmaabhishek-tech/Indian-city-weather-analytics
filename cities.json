@@ -1,0 +1,92 @@
+[
+  {
+    "city_id": 1,
+    "city": "Delhi",
+    "country": "India",
+    "region": "Delhi",
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "query": "Delhi, India"
+  },
+  {
+    "city_id": 2,
+    "city": "Mumbai",
+    "country": "India",
+    "region": "Maharashtra",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "query": "Mumbai, India"
+  },
+  {
+    "city_id": 3,
+    "city": "Bengaluru",
+    "country": "India",
+    "region": "Karnataka",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "query": "Bengaluru, India"
+  },
+  {
+    "city_id": 4,
+    "city": "Chennai",
+    "country": "India",
+    "region": "Tamil Nadu",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "query": "Chennai, India"
+  },
+  {
+    "city_id": 5,
+    "city": "Kolkata",
+    "country": "India",
+    "region": "West Bengal",
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "query": "Kolkata, India"
+  },
+  {
+    "city_id": 6,
+    "city": "Hyderabad",
+    "country": "India",
+    "region": "Telangana",
+    "latitude": 17.385,
+    "longitude": 78.4867,
+    "query": "Hyderabad, India"
+  },
+  {
+    "city_id": 7,
+    "city": "Pune",
+    "country": "India",
+    "region": "Maharashtra",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "query": "Pune, India"
+  },
+  {
+    "city_id": 8,
+    "city": "Ahmedabad",
+    "country": "India",
+    "region": "Gujarat",
+    "latitude": 23.0225,
+    "longitude": 72.5714,
+    "query": "Ahmedabad, India"
+  },
+  {
+    "city_id": 9,
+    "city": "Jaipur",
+    "country": "India",
+    "region": "Rajasthan",
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "query": "Jaipur, India"
+  },
+  {
+    "city_id": 10,
+    "city": "Lucknow",
+    "country": "India",
+    "region": "Uttar Pradesh",
+    "latitude": 26.8467,
+    "longitude": 80.9462,
+    "query": "Lucknow, India"
+  }
+]
