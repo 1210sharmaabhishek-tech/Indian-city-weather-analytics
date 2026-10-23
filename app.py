@@ -12,6 +12,11 @@ from src.pipeline import run_pipeline  # noqa: E402
 
 DATA = ROOT / "data"
 load_dotenv(ROOT / ".env")
+if not os.getenv("WEATHERAPI_KEY"):
+    try:
+        os.environ["WEATHERAPI_KEY"] = st.secrets["WEATHERAPI_KEY"]
+    except (KeyError, FileNotFoundError):
+        pass
 
 st.set_page_config(page_title="Indian City Weather Analytics", page_icon="🌦️",
                    layout="wide")
