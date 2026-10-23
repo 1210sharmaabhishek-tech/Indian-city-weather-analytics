@@ -1,5 +1,6 @@
 """Interactive Streamlit dashboard for Indian city weather analytics."""
 from pathlib import Path
+import os
 import sys
 import pandas as pd
 import streamlit as st
