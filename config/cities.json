@@ -1,12 +1,13 @@
 [
-  {"name": "Delhi", "query": "Delhi, India"},
-  {"name": "Mumbai", "query": "Mumbai, India"},
-  {"name": "Bengaluru", "query": "Bengaluru, India"},
-  {"name": "Chennai", "query": "Chennai, India"},
-  {"name": "Kolkata", "query": "Kolkata, India"},
-  {"name": "Hyderabad", "query": "Hyderabad, India"},
-  {"name": "Pune", "query": "Pune, India"},
-  {"name": "Ahmedabad", "query": "Ahmedabad, India"},
-  {"name": "Jaipur", "query": "Jaipur, India"},
-  {"name": "Lucknow", "query": "Lucknow, India"}
+  {"city_id": 1, "name": "Delhi", "query": "Delhi, India"},
+  {"city_id": 2, "name": "Mumbai", "query": "Mumbai, India"},
+  {"city_id": 3, "name": "Bengaluru", "query": "Bengaluru, India"},
+  {"city_id": 4, "name": "Chennai", "query": "Chennai, India"},
+  {"city_id": 5, "name": "Kolkata", "query": "Kolkata, India"},
+  {"city_id": 6, "name": "Hyderabad", "query": "Hyderabad, India"},
+  {"city_id": 7, "name": "Pune", "query": "Pune, India"},
+  {"city_id": 8, "name": "Ahmedabad", "query": "Ahmedabad, India"},
+  {"city_id": 9, "name": "Jaipur", "query": "Jaipur, India"},
+  {"city_id": 10, "name": "Lucknow", "query": "Lucknow, India"}
 ]
+
